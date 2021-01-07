@@ -10,7 +10,7 @@ const Message = () => {
 const [show,setShow] = useState(true);
 const update = () =>  {
     setmessage("your message is successfully updated ");
-    setShow(false);
+    setTimeout(()=> setShow(false),2000);
 };
 if(show)
 {

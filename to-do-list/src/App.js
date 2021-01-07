@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Message from './components/Message';
+import Counter from './components/Counter';
+// import Message from './components/Message';
 
 
 
@@ -9,7 +10,8 @@ const App = ()=> {
     <div className="App">
       <h1>hello to do app</h1>
       <hr />
-      <Message />
+      {/* <Message /> */}
+      <Counter></Counter>
       <hr />
       <hr />
       
