@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
-function App() {
+const Labelone = (props) => {
+  return(
+    <h1><Labeltwo msg={props.msg}/></h1>
+  );
+}
+const Labeltwo = (props) => {
+  return (
+    <h1><h1>Your msg was : {props.msg}</h1></h1>
+  );
+};
+
+const App = ()=> {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>hello to do app</h1>
+      <hr />
+      <Labelone msg="this is secret code" />
+      
     </div>
   );
 }
