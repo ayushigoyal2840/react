@@ -36,6 +36,17 @@ const Todo = () => {
         setTodotext("");
     };
 
+    const completeTodo = id => {
+            let updatedTodos = todo.map(todo => {
+                if(todo.id == id){
+                    todo.iscompleted = true;
+                    return todo;
+                }
+                return todo;
+            });
+console.log(updatedTodos);
+    };
+
     return (
         <div className="card shadow">
             <div className="card-header">
@@ -59,7 +70,11 @@ const Todo = () => {
                             <li 
                             className="list-group-item" 
                             key={todo.id}>
-                                <input type="checkbox" checked={todo.iscompleted}/>
+                                <input 
+                                type="checkbox" 
+                                checked={todo.iscompleted}
+                                onChange={() => completeTodo(todo.id)}
+                                />
                                 <span className={todo.iscompleted ? `completed`:null}>
                                 {todo.text}
                                 </span>
