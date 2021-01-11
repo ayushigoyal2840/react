@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <nav className="navbar shadow fixed-top navbar-expand-sm navbar-dark bg-primary">
-            <div className="conatiner">
+            <div className="container">
                 <a href="#" className="navbar-brand">
                     Contact book
                 </a>

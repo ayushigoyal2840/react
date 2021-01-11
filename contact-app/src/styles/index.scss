@@ -3,10 +3,16 @@ $danger: #ff4136;
 
 $theme-colors: (
   "primary": $primary,
-  "danger": $danger
+  "danger": $danger,
+  "success": #33691e,
+  "warning": #ffab00
 );
 
 
 
 // Bootstrap and its default variables
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 5rem;
+}
