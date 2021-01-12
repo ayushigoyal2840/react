@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Avatar from 'react-avatar';
 
 const Contact = (props) => {
     return (
@@ -10,10 +11,18 @@ const Contact = (props) => {
           <label className="custom-control-label"/>
         </div>
       </th>
-        <td>1</td>
-        <td>{props.contacts.name}</td>
+        
+        <td>
+          <Avatar className="mr-2" name={props.contacts.name} size="45" round={true}/>
+          {props.contacts.name}</td>
         <td>{props.contacts.phone}</td>
         <td>{props.contacts.email}</td>
+        <td className="actions">
+          <a href="#">
+            <span className="material-icons mr-2">edit</span>          </a>
+          <a href="#">
+            <span className="material-icons">remove</span>          </a>
+        </td>
       </tr>
     )
 }

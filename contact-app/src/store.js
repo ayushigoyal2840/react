@@ -5,7 +5,7 @@ const initialState = {
   contacts : [
     {
       "id": 1,
-      "name": "ayushi goyal",
+      "name": " ayushi goyal",
       "username": "ayu",
       "email": "ayu@april.biz",
       "address": {
@@ -28,7 +28,7 @@ const initialState = {
     },
     {
       "id": 2,
-      "name": "Eric",
+      "name": " Eric",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
       "address": {
@@ -51,7 +51,7 @@ const initialState = {
     },
     {
       "id": 3,
-      "name": "ayu",
+      "name": " ayu",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
       "address": {
@@ -74,7 +74,7 @@ const initialState = {
     },
     {
       "id": 4,
-      "name": "ayushi ",
+      "name": " ayushi ",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
       "address": {
@@ -97,7 +97,7 @@ const initialState = {
     },
     {
       "id": 5,
-      "name": "Chelsey",
+      "name": " Chelsey",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
       "address": {
@@ -120,7 +120,7 @@ const initialState = {
     },
     {
       "id": 6,
-      "name": "Mrs. mamma",
+      "name": " Mrs. mamma",
       "username": "Leopoldo_Corkery",
       "email": "Karley_Dach@jasper.info",
       "address": {
@@ -143,7 +143,7 @@ const initialState = {
     },
     {
       "id": 7,
-      "name": "shikha goyal",
+      "name": " shikha goyal",
       "username": "Elwyn.Skiles",
       "email": "Telly.Hoeger@billy.biz",
       "address": {
@@ -166,7 +166,7 @@ const initialState = {
     },
     {
       "id": 8,
-      "name": "papa goyal",
+      "name": " papa goyal",
       "username": "Maxime_Nienow",
       "email": "Sherwood@rosamond.me",
       "address": {
@@ -189,7 +189,7 @@ const initialState = {
     },
     {
       "id": 9,
-      "name": "mummy goel",
+      "name": " mummy goel",
       "username": "Delphine",
       "email": "Chaim_McDermott@dana.io",
       "address": {
@@ -212,7 +212,7 @@ const initialState = {
     },
     {
       "id": 10,
-      "name": "ukarsh goyal",
+      "name": " ukarsh goyal",
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
       "address": {

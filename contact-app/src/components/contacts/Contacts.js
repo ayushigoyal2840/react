@@ -7,8 +7,8 @@ const Contacts = () => {
     return (
         <div>
             
-            <table className="table shadow table-striped ">
-  <thead className="table">
+            <table className="table shadow ">
+  <thead className="bg-danger">
     <tr>
       <th scope="col">
         <div className="custom-control custom-checkbox">
@@ -17,10 +17,11 @@ const Contacts = () => {
           <label className="custom-control-label"/>
         </div>
       </th>
-      <th>Serial no.</th>
+      
       <th>Name</th>
       <th>Phone</th>
       <th>Email</th>
+      <th>Edit</th>
     </tr>
   </thead>
   <tbody>
