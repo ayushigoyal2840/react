@@ -6,39 +6,32 @@ const Contacts = () => {
     return (
         <div>
             
-            <table class="table table-dark table-striped">
+            <table className="table shadow table-striped">
   <thead>
     <tr>
       <th scope="col">
         <div className="custom-control custom-checkbox">
           <input type="checkbox"
           className="custom-control-input" />
-          <label className="custom-control-label"></label>
+          <label className="custom-control-label"/>
         </div>
       </th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th>Name</th>
+      <th>Phone</th>
+      <th>Email</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
-      <td>@twitter</td>
-    </tr>
+    {
+      contacts.map(contacts => (<tr>
+        <th scope="row">1</th>
+        <td>{contacts.name}</td>
+        <td>{contacts.phone}</td>
+        <td>{contacts.email}</td>
+      </tr>
+      ))
+    }
+    
   </tbody>
 </table>
         </div>
