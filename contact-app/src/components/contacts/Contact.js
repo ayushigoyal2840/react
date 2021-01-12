@@ -19,9 +19,9 @@ const Contact = (props) => {
         <td>{props.contacts.email}</td>
         <td className="actions">
           <a href="#">
-            <span className="material-icons mr-2">edit</span>          </a>
+            <span className="material-icons mr-2 text-success">edit</span>          </a>
           <a href="#">
-            <span className="material-icons">remove</span>          </a>
+            <span className="material-icons text-danger">remove</span>          </a>
         </td>
       </tr>
     )

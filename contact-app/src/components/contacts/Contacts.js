@@ -8,7 +8,7 @@ const Contacts = () => {
         <div>
             
             <table className="table shadow ">
-  <thead className="bg-danger">
+  <thead className="bg-danger text-white">
     <tr>
       <th scope="col">
         <div className="custom-control custom-checkbox">
