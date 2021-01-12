@@ -1,13 +1,21 @@
-import React from 'react'
+import React from 'react';
+import {useSelector} from 'react-redux';
 
 const Contacts = () => {
+  const contacts = useSelector(state => state.contacts)
     return (
         <div>
             
             <table class="table table-dark table-striped">
   <thead>
     <tr>
-      <th scope="col">#</th>
+      <th scope="col">
+        <div className="custom-control custom-checkbox">
+          <input type="checkbox"
+          className="custom-control-input" />
+          <label className="custom-control-label"></label>
+        </div>
+      </th>
       <th scope="col">First</th>
       <th scope="col">Last</th>
       <th scope="col">Handle</th>
