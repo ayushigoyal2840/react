@@ -1,13 +1,14 @@
 import React from 'react';
 import {useSelector} from 'react-redux';
+import Contact from './Contact';
 
 const Contacts = () => {
   const contacts = useSelector(state => state.contacts)
     return (
         <div>
             
-            <table className="table shadow table-striped">
-  <thead>
+            <table className="table shadow table-striped ">
+  <thead className="table">
     <tr>
       <th scope="col">
         <div className="custom-control custom-checkbox">
@@ -16,6 +17,7 @@ const Contacts = () => {
           <label className="custom-control-label"/>
         </div>
       </th>
+      <th>Serial no.</th>
       <th>Name</th>
       <th>Phone</th>
       <th>Email</th>
@@ -23,14 +25,11 @@ const Contacts = () => {
   </thead>
   <tbody>
     {
-      contacts.map(contacts => (<tr>
-        <th scope="row">1</th>
-        <td>{contacts.name}</td>
-        <td>{contacts.phone}</td>
-        <td>{contacts.email}</td>
-      </tr>
-      ))
-    }
+      contacts.map((contacts) => (
+        <Contact contacts={contacts} />
+      ) 
+
+      )}
     
   </tbody>
 </table>
