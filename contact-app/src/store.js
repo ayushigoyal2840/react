@@ -5,9 +5,9 @@ const initialState = {
   contacts : [
     {
       "id": 1,
-      "name": "Leanne Graham",
-      "username": "Bret",
-      "email": "Sincere@april.biz",
+      "name": "ayushi goyal",
+      "username": "ayu",
+      "email": "ayu@april.biz",
       "address": {
         "street": "Kulas Light",
         "suite": "Apt. 556",
@@ -18,7 +18,7 @@ const initialState = {
           "lng": "81.1496"
         }
       },
-      "phone": "1-770-736-8031 x56442",
+      "phone": "9880956442",
       "website": "hildegard.org",
       "company": {
         "name": "Romaguera-Crona",
@@ -28,20 +28,20 @@ const initialState = {
     },
     {
       "id": 2,
-      "name": "Ervin Howell",
+      "name": "Eric",
       "username": "Antonette",
       "email": "Shanna@melissa.tv",
       "address": {
         "street": "Victor Plains",
         "suite": "Suite 879",
         "city": "Wisokyburgh",
-        "zipcode": "90566-7771",
+        "zipcode": "905667771",
         "geo": {
           "lat": "-43.9509",
           "lng": "-34.4618"
         }
       },
-      "phone": "010-692-6593 x09125",
+      "phone": "9898989876",
       "website": "anastasia.net",
       "company": {
         "name": "Deckow-Crist",
@@ -51,7 +51,7 @@ const initialState = {
     },
     {
       "id": 3,
-      "name": "Clementine Bauch",
+      "name": "ayu",
       "username": "Samantha",
       "email": "Nathan@yesenia.net",
       "address": {
@@ -64,7 +64,7 @@ const initialState = {
           "lng": "-47.0653"
         }
       },
-      "phone": "1-463-123-4447",
+      "phone": "9898989876",
       "website": "ramiro.info",
       "company": {
         "name": "Romaguera-Jacobson",
@@ -74,7 +74,7 @@ const initialState = {
     },
     {
       "id": 4,
-      "name": "Patricia Lebsack",
+      "name": "ayushi ",
       "username": "Karianne",
       "email": "Julianne.OConner@kory.org",
       "address": {
@@ -87,7 +87,7 @@ const initialState = {
           "lng": "-164.2990"
         }
       },
-      "phone": "493-170-9623 x156",
+      "phone": "9898989876",
       "website": "kale.biz",
       "company": {
         "name": "Robel-Corkery",
@@ -97,7 +97,7 @@ const initialState = {
     },
     {
       "id": 5,
-      "name": "Chelsey Dietrich",
+      "name": "Chelsey",
       "username": "Kamren",
       "email": "Lucio_Hettinger@annie.ca",
       "address": {
@@ -110,7 +110,7 @@ const initialState = {
           "lng": "62.5342"
         }
       },
-      "phone": "(254)954-1289",
+      "phone": "9898989876",
       "website": "demarco.info",
       "company": {
         "name": "Keebler LLC",
@@ -120,7 +120,7 @@ const initialState = {
     },
     {
       "id": 6,
-      "name": "Mrs. Dennis Schulist",
+      "name": "Mrs. mamma",
       "username": "Leopoldo_Corkery",
       "email": "Karley_Dach@jasper.info",
       "address": {
@@ -133,7 +133,7 @@ const initialState = {
           "lng": "71.7478"
         }
       },
-      "phone": "1-477-935-8478 x6430",
+      "phone": "9898989876",
       "website": "ola.org",
       "company": {
         "name": "Considine-Lockman",
@@ -143,7 +143,7 @@ const initialState = {
     },
     {
       "id": 7,
-      "name": "Kurtis Weissnat",
+      "name": "shikha goyal",
       "username": "Elwyn.Skiles",
       "email": "Telly.Hoeger@billy.biz",
       "address": {
@@ -156,7 +156,7 @@ const initialState = {
           "lng": "21.8984"
         }
       },
-      "phone": "210.067.6132",
+      "phone": "9898989876",
       "website": "elvis.io",
       "company": {
         "name": "Johns Group",
@@ -166,7 +166,7 @@ const initialState = {
     },
     {
       "id": 8,
-      "name": "Nicholas Runolfsdottir V",
+      "name": "papa goyal",
       "username": "Maxime_Nienow",
       "email": "Sherwood@rosamond.me",
       "address": {
@@ -179,7 +179,7 @@ const initialState = {
           "lng": "-120.7677"
         }
       },
-      "phone": "586.493.6943 x140",
+      "phone": "9898989876",
       "website": "jacynthe.com",
       "company": {
         "name": "Abernathy Group",
@@ -189,7 +189,7 @@ const initialState = {
     },
     {
       "id": 9,
-      "name": "Glenna Reichert",
+      "name": "mummy goel",
       "username": "Delphine",
       "email": "Chaim_McDermott@dana.io",
       "address": {
@@ -202,7 +202,7 @@ const initialState = {
           "lng": "-168.8889"
         }
       },
-      "phone": "(775)976-6794 x41206",
+      "phone": "9898989876",
       "website": "conrad.com",
       "company": {
         "name": "Yost and Sons",
@@ -212,7 +212,7 @@ const initialState = {
     },
     {
       "id": 10,
-      "name": "Clementina DuBuque",
+      "name": "ukarsh goyal",
       "username": "Moriah.Stanton",
       "email": "Rey.Padberg@karina.biz",
       "address": {
@@ -225,7 +225,7 @@ const initialState = {
           "lng": "57.2232"
         }
       },
-      "phone": "024-648-3804",
+      "phone": "9898989876",
       "website": "ambrose.net",
       "company": {
         "name": "Hoeger LLC",
