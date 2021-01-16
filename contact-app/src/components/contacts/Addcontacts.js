@@ -4,12 +4,18 @@ const Addcontacts = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
     const [phone, setPhone] = useState("");
+
+    const createContact = (event) => {
+        event.preventDefault();
+        console.log(name, phone, email);
+
+    }
     return (
         <div className="card border-0 shadow">
             <div className="card-header">
                 Create New Contact
                 <div className="card-body">
-                    <form>
+                    <form onSubmit={(event) => createContact(event)}>
                         <div className="form-group">
                             <input type="text"
                             className="form-control"
