@@ -243,7 +243,7 @@ const initialState = {
         "bs": "target end-to-end models"
       }
     }
-  ]
+  ],
 }
 
 
@@ -251,6 +251,7 @@ const contactReducer = (state = initialState, action) => {
     switch(action.type) {
       case "Create_Contact" :
         return {
+          ...state,
           contacts: [action.payload, ...state.contacts]
         }
 

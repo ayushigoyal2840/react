@@ -12,11 +12,11 @@ const Addcontacts = () => {
         event.preventDefault();
         const new_contact = {
             name: name,
-            phone: PointerEvent,
+            phone: phone,
             email: email,
         }
         // console.log(name, phone, email);
-        dispatch(Addcontact());
+        dispatch(Addcontact(new_contact));
 
     }
     return (
