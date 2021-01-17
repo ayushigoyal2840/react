@@ -1,23 +1,27 @@
-import React from 'react'
+import React from 'react';
+import {Link , NavLink} from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Learning React</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div className="container-fluid">
+          <a className="navbar-brand" href="#">Learning React</a>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <NavLink className="nav-link " exact to="/">Home</NavLink>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">About</a>
+              <li className="nav-item">
+                <NavLink className="nav-link " exact to="/about">About</NavLink>
               </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Contact</a>
+              <li className="nav-item">
+                <NavLink className="nav-link " exact to="/contact">Contact</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link " exact to="/thank">Blog </NavLink>
               </li>
               
             </ul>
