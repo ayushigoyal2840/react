@@ -27,7 +27,7 @@ const Contacts = () => {
   <tbody>
     {
       contacts.map((contacts) => (
-        <Contact contacts={contacts} />
+        <Contact contacts={contacts} key={contacts.id}/>
       ) 
 
       )}
