@@ -9,6 +9,11 @@ const Home = () => {
     }, [])
 
 
+        const loadUsers = async () => {
+            const result = await axios.get("http://localhost:3002/users");
+            console.log(result);
+        }
+
     return (
         <div className="container">
             <div className="py-4">
