@@ -7,6 +7,8 @@ import Navbar from './components/layout/Navbar';
 import Thank from "./components/pages/Thank";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Notfound from './components/pages/Notfound';
+import Addusers from './components/Users/Addusers';
+import Edit from './components/Users/Edit';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route exact path = "/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/thank" component={Thank} />
+       <Route exact path="/users/add" component={Addusers} />
+       <Route exact path="/users/edit" component={Edit} />
         <Route component={Notfound} />
       </Switch>
       
