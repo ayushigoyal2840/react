@@ -1,10 +1,14 @@
-import React , {useState} from 'react';
+import React , {useState , useEffect} from 'react';
 import axios from 'axios';
-import {useHistory} from "react-router-dom";
+import {useHistory, useParams} from "react-router-dom";
 
 
 const Edit = () => {
     let history = useHistory();
+
+    const {id} = useParams();
+    // alert(id);
+
     const [ user , setuser] = useState({
         name: "",
         username: "",
@@ -12,12 +16,11 @@ const Edit = () => {
         phone: "",
         website: ""
         
+
     });
-    
-
-
-
     const {name, username, email, phone, website} = user;
+
+
     
     const onInputChange = (event) => {
         // console.log("heyy");
@@ -25,15 +28,27 @@ const Edit = () => {
         setuser({...user, [event.target.name]: event.target.value});
     };
 
+    useEffect ( () => {
+        loadUser();
+    }, []);
 
     const onSubmit = async event => {
         event.preventDefault();
-        await axios.post("http://localhost:3002/users", user);
+        await axios.put(`http://localhost:3002/users/${id}`,user);
         history.push("/");
 
 
 
     } 
+
+    const loadUser = async () => {
+        const result = await axios.get(`http://localhost:3002/users/${id}`);
+        // console.log(result);
+        setuser(result.data);
+
+
+
+    }
 
     return (
        <div className="container">
@@ -90,8 +105,8 @@ const Edit = () => {
                        onChange = {event => onInputChange(event)}
                        />
                    </div>
-                   <button className="w-100 btn btn-primary">
-                       Edit
+                   <button className="w-100 btn btn-warning">
+                       Update User
 
                    </button>
                </form>
