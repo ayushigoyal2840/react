@@ -22,7 +22,7 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/thank" component={Thank} />
        <Route exact path="/users/add" component={Addusers} />
-       <Route exact path="/users/edit" component={Edit} />
+       <Route exact path="/users/edit/:id" component={Edit} />
         <Route component={Notfound} />
       </Switch>
       
