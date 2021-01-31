@@ -88,3 +88,9 @@
 .nav-item .active{
   margin-left:400px;
 }
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  color: red;
+}
