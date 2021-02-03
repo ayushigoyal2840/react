@@ -91,6 +91,8 @@
 
 .flex-container {
   display: flex;
-  flex-direction: column;
-  color: red;
+  /* width: ; */
+  flex-direction: row;
+  color: rgb(3, 0, 0);
+  /* margin-left: 40px; */
 }
