@@ -95,4 +95,24 @@
   flex-direction: row;
   color: rgb(3, 0, 0);
   /* margin-left: 40px; */
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 60px;
+}
+.box {
+  box-sizing: inherit;
+  margin-left: 20px;
+  white-space: normal;
+    width: 75%;
+    margin-right: 20px;
+    padding-bottom: 40px;
+}
+
+.heading{
+  color: #6d6d6d;
+}
+
+.paragraph {
+  line-height: 27px;
+  font-size: 1.5rem;
 }
