@@ -6,7 +6,7 @@ function Para() {
         // <div className="flex-container">
             <div class="flex-container" >
     <div className="box">
-    <h4 className="heading">Declarative</h4>
+    <p className="headings">Declarative</p>
     <p class="paragraph">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
 Declarative views make your code more predictable and easier to debug.</p>
@@ -15,14 +15,14 @@ Declarative views make your code more predictable and easier to debug.</p>
    
   
     <div className="box">
-    <h4 className="heading">Declarative</h4>
+    <p className="headings">Declarative</p>
 
     <p class="paragraph">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
 Declarative views make your code more predictable and easier to debug.</p>
     </div>
   <div className="box">
-  <h4 className="heading">Declarative</h4>
+  <p className="headings">Declarative</p>
     <p class="paragraph">React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes.
 
 Declarative views make your code more predictable and easier to debug.</p>
