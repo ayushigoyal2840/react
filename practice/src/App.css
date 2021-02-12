@@ -3,6 +3,16 @@
   height:420px;
   margin-top:-60px;
 }
+.jumbotrons{
+  background-color:#251f1f;
+  height:420px;
+  margin-top:-60px;
+}
+.jumbotron2{
+  background-color:#afb9ce;
+  height:40px;
+  margin-top:-60px;
+}
 .jumbotron .display-1{
   /* background-color:#282c34;
    */
