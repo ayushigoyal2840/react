@@ -3,11 +3,15 @@ import { FaFacebookMessenger } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import img1 from "../images/img1.png"
+// import bg from "../images/bg1.jpg";
 const Banner = () => {
     return (
         <header className="header">
+            
             <div className="container">
                 <div className="row">
+
                     <div className="col-6">
                         <div className="header_content">
                             <div className="header_section">
@@ -38,7 +42,9 @@ const Banner = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-6"></div>
+                    <div className="col-6">
+                        <img src={img1}></img>
+                    </div>
 
                 </div>
             </div>
