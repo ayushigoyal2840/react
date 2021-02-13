@@ -5,165 +5,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Pacifico', sans-serif;
 
 }
 
-body {
-    overflow: hidden;
+.header {
+ width: 100%;
+ height: 100vh;
+ background: url('./images/bg1.jpg');
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 
-section{
+.navbar {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background:#414a4c;
+    z-index: 1;
+    top: 0;
+}
+.navbar__container {
     display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar__left-logo img{
+     /* width: 110px; */
+     margin-top: 0px;
+     margin-bottom: 27px;
+} 
+.navbar__right {
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 20px;
+
+}
+.navbar__right li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 21px;
+    padding: 0 15px;
+    
+}
+.container {
+    width: 1200px;
+    /* margin: 0 auto; */
+}
+
+.row{
+    display: flex;
+    width: 100%;
     justify-content: center;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.header_content {
+    display: flex;
     align-items: center;
     height: 100vh;
-    background-color: #f1f1f1;
-
-}
-
-section .box {
-    position: absolute;
-    width: 450px;
-    height: 450px;
-
-}
-
-section .box::before{
-
-content: '';
-position: absolute;
-top: 0;
-left: 50%;
-width: 100%;
-height: 100%;
-background: linear-gradient(to right,#000, transparent);
-opacity: 0.1;
-transform: rotate(45deg);
-transform-origin: left;
-
-}
-
-section .box .circle 
-{
-    position: relative;
     width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg,#fff,#706b70);
+    color: #262c2e;
+}
 
+.header_ul{
+    list-style-type: none;
     display: flex;
-    justify-content: center;
+}
+.header_ul li{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #262c2e;
+    border-radius: 50%;
+    display: flex;
+    /* flex-direction: column; */
     align-items: center;
-    border-radius: 50%;
-/* background-image: url(../christmas/IMG-20201227-WA0038.jpg); */
-background-repeat: no-repeat;
-/* visibility: hidden; */
-box-shadow: 10px 10px 8px #6d6c6c;
-
-    z-index: 1;
+    justify-content: center;
+    margin: 0 5px;
 }
-
-section .box .circle::before
-{
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    /* background: linear-gradient(315deg,#fff,#afaaaa); */
-/* margin-left: 30px; */
-
-    border-radius: 50%;
-}
-section .box .circle:hover
-{
-    content: '';
-    position: absolute;;
-    margin-top: 10px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    /* background-image: none; */
-    background: linear-gradient(315deg,#fff,#afaaaa);
+/* .header_ul li:hover{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #262c2e;
+    background: #bdbdbd;
     
-transform: rotateX(180deg);
-}
-
-section .box .circle h2{
-position: absolute;
-z-index: 0;
-font-size: 2rem;
-color: rgb(5, 85, 85);
-text-align: center;
-font-weight: 400;
-opacity: 0;
-text-decoration: dashed;
-}
-a{
-    text-decoration: none;
-    font-size: 2rem;
-    color:rgb(4, 70, 70);
-}
-a:hover
-{
-    text-decoration: underline;
-    color: rgb(5, 107, 107);
-
-
-
-}
-
- section .box .circle h2:hover{
-position: absolute;
-z-index: 2;
-font-size: 3rem;
-color: rgb(3, 46, 46);
-text-align: center;
-font-weight: 400;
-visibility: visible;
-opacity: 1;
-transform: rotateX(-180deg);
-
-
-
-} 
-
-
-section i {
-    position: absolute;
-    background-color: rgb(4, 61, 61);
     border-radius: 50%;
-    animation: animate linear infinite;
-}
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}  */
 
-/* section i:nth-child(even)
-{
-    background: transparent;
-    border:  1px solid rgb(4, 61, 61);
-} */
-
-
-@keyframes animate
-{
-    0%
-    {
-        transform: translateY(0);
-        opacity: 0;
-    }
-    10%
-    {
-        /* transform: translateY(0); */
-        opacity: 1;
-    }
-    90%
-    {
-        /* transform: translateY(0); */
-        opacity: 1;
-    }
-    100%
-    {
-        transform: translateY(-2000%);
-        opacity: 0;
-    }
-}

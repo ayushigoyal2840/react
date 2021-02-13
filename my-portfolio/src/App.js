@@ -1,12 +1,15 @@
 import React from 'react'
-
 import './App.css';
-import Function from './components/Function';
+import Banner from './components/Banner';
+import Nav from './components/Nav';
+// import Function from './components/Function';
 
 function App() {
   return (
    <div>
-       <div class="box">
+     <Banner />
+     <Nav />
+       {/* <div class="box">
             <div class="circle">
             <h2>
                 <a href="#">Home</a><br />
@@ -15,7 +18,7 @@ function App() {
                 <a href="#">Contact</a>
             </h2>
             </div>
-        </div>
+        </div> */}
    </div>
   );
 }
