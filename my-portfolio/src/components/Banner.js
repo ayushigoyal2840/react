@@ -32,9 +32,13 @@ const Banner = () => {
                             blahh blahh blahh blahh blahh blahh blahh blahh'blahh
                             blahhv blahh vblahh
                             </p>
+                            <div className="header_button">
+                                <a href="" className="btn btn-outline">My Portfolio</a>
+                            </div>
                             </div>
                         </div>
                     </div>
+                    <div className="col-6"></div>
 
                 </div>
             </div>
