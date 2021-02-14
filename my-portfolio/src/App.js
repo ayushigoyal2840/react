@@ -1,7 +1,9 @@
 import React from 'react'
 import './App.scss';
-import arrow from './images/arrow-right.svg';
+// import arrow from './images/arrow.Svg';
 // import Function from './components/Function';
+import ayu1 from './images/hero1.jpeg';
+import ayu2 from './images/hero2.jpg'
 
 function App() {
   return (
@@ -13,37 +15,44 @@ function App() {
              <h1>
                <div className="hero-content-line">
                  <div className="hero-content-line-inner">
-                   hello this is ayuhi
+                  I am Ayushi Goel
                  </div>
 
                </div>
                <div className="hero-content-line">
-                 <div className="hero-content-line-inner">
-                    welcome to his shit
+                 <div className="hero-content-line-inner-2">
+                    Web Developer
                  </div>
 
-               </div>
-               <div className="hero-content-line">
-                 <div className="hero-content-line-inner">
-                    i am still designing
-                 </div>
+               
+               
 
                </div>
              </h1>
              <p>
-             Squirrel-girl quasar mysterio banner odin blackpanther deathstrike menace cable mentallo. Gorgon zodiak, squirrel-girl spyke. Lifeguard batroc miracleman banshee microchip penance. Blackpanther mrfantastic ink star-lord cannonball bob ezekiel. Wonderman jocasta vanisher deathbird dynamo medusa wolfsbane vanisher. Amora madrox, hellion star-lord lionheart urich. Lockheed moleman stryker valkyrie scourge araña praxagora countess. Manwolf korath frankenstein stryker illuminati abomination. Araña proudstar stature penance. Toad barnes banshee sage! Namora leech riptide shaman feral beast demogoblin gladiator gwen arcana pepperpotts caretaker cuckoos. Skrulls urich grimreaper miek. Ares leech mandarin miracleman ironpatriot azazel zemo abomb titania bob. Darkstar.
-             </p>
+Innovative, Energetic and task-driven professional.Creating and maintaining
+functional, attractive, and responsive websites for travel companies and commercial websites.. Clear
+understanding of modern technologies and best design practices. Experienced
+with Webflow.            </p>
              <div className="btn-row">
-               <button className="explore-button">download resume</button>
+               <button className="button">download resume</button>
                <div className="arrow-icon">
-                 <img src={arrow} alt="arrow"></img>
+                 {/* <img src={arrow} alt="arrow"></img> */}
                </div>
              </div>
            </div>
 
          </div>
          <div className="hero-images">
-
+          <div className="hero-images-inner">
+            
+            <div className="hero-image ayu1">
+              <img src={ayu1}></img>
+            </div>
+            <div className="hero-image ayu2">
+              <img src={ayu2}></img>
+            </div>
+    </div>
          </div>
        </div>
      </div>
