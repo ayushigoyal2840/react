@@ -3,7 +3,7 @@ import { FaFacebookMessenger } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import img2 from "../images/img2.png"
+import img2 from "../images/img3.png"
 // import bg from "../images/bg1.jpg";
 const Banner = () => {
     return (
