@@ -15,7 +15,8 @@
  opacity: 1;
  background-repeat: no-repeat;
  background-size: cover;
- background: url('./images/Untitled.png');
+ /* background: url('./images/Untitled.png'); */
+ background-image: linear-gradient(to bottom right, red, yellow);
 
 }
 .header::after{
