@@ -7,9 +7,7 @@ const Nav = () => {
             <div className="container">
                 <div className="navbar__container">
                 <ul className="navbar__left">
-                    <div className="navbar__left-logo">
-                        <img src={logo} ></img>
-                    </div>
+                    
                 </ul>
                 <ul className="navbar__right">
                     <li><a href="">Home</a></li>

@@ -1,6 +1,6 @@
 import React from 'react';
-import ayu1 from './images/hero1.jpeg';
-import ayu2 from './images/hero2.jpg'
+import ayu1 from './hero1.jpeg';
+import ayu2 from './hero2.jpg'
 
 const Hero = () => {
     return (
