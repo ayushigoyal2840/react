@@ -1,4 +1,5 @@
 import React from 'react';
+import {TweenMax} from 'gsap';
 import ayu1 from './hero1.jpeg';
 import ayu2 from './hero2.jpg'
 
