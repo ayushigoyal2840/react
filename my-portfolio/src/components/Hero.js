@@ -1,12 +1,19 @@
-import React from 'react';
+import React,{useRef,useEffect} from 'react';
 import {TweenMax} from 'gsap';
 import ayu1 from './hero1.jpeg';
 import ayu2 from './hero2.jpg'
 
 const Hero = () => {
+  let app = useRef(null);
+
+
+  useEffect(() => {
+    TweenMax.to(app, 0, {css: {visibility: 'visible'}})
+    console.log(app);
+  })
     return (
         <div>
-            <div className="hero">
+            <div className="hero" ref={el => app = el}>
      
      <div className="container">
        <div className="hero-inner">
