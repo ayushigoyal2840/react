@@ -5,11 +5,20 @@ import ayu2 from './hero2.jpg'
 
 const Hero = () => {
   let app = useRef(null);
+  let images = useRef(null);
 
 
   useEffect(() => {
+    const ayu1 = images.firstElementChild;
+    const ayu2 = images.lastElementChild;
+
+
+
+
     TweenMax.to(app, 0, {css: {visibility: 'visible'}})
-    console.log(app);
+    // console.log(app);
+    console.log(ayu1,ayu2);
+
   })
     return (
         <div>
@@ -53,7 +62,7 @@ with Webflow.            </p>
          <div className="hero-images">
           <div className="hero-images-inner">
             
-            <div className="hero-image ayu1">
+            <div className="hero-image ayu1" ref={el => images = el}>
               <img src={ayu1}></img>
             </div>
             <div className="hero-image ayu2">
