@@ -15,11 +15,13 @@ const Projects = () => {
 //   </div>
 // </div>
 //         </div>
+
 <div>
+  <h1 className="project">Projects</h1>
     <div class="container my-4">
       <p>
         <strong
-          >You can use slideshow component for cycling through elements—images or slides of text—like a carousel</strong>
+          >Some of the projects are</strong>
         
       </p>
 
@@ -29,7 +31,7 @@ const Projects = () => {
       </p>
 
       <hr />
-      </div>
+      
 
 
 <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
@@ -60,7 +62,7 @@ const Projects = () => {
             <h4 class="card-title">Card title</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Button</a>
+              <button className="button">download resume</button>
           </div>
         </div>
       </div>
@@ -73,7 +75,7 @@ const Projects = () => {
             <h4 class="card-title">Card title</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Button</a>
+              <button className="button">download resume</button>
           </div>
         </div>
       </div>
@@ -86,7 +88,7 @@ const Projects = () => {
             <h4 class="card-title">Card title</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Button</a>
+              <button className="button">download resume</button>
           </div>
         </div>
       </div>
@@ -99,7 +101,55 @@ const Projects = () => {
             <h4 class="card-title">Card title</h4>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
               card's content.</p>
-            <a class="btn btn-primary">Button</a>
+              <button className="button">download resume</button>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3" style={{float: 'left'}}>
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src={hero1} alt="Card image cap" />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+              <button className="button">download resume</button>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3" style={{float: 'left'}}>
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src={hero1} alt="Card image cap" />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+              <button className="button">download resume</button>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3" style={{float: 'left'}}>
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src={hero1} alt="Card image cap" />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+              <button className="button">download resume</button>
+          </div>
+        </div>
+      </div>
+       <div class="col-md-3" style={{float: 'left'}}>
+       <div class="card mb-2">
+          <img class="card-img-top"
+            src={hero1} alt="Card image cap" />
+          <div class="card-body">
+            <h4 class="card-title">Card title</h4>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+              card's content.</p>
+              <button className="button">download resume</button>
           </div>
         </div>
       </div>
@@ -169,6 +219,17 @@ const Projects = () => {
   </div>
     
     )
+
+
+
+
+
+
+
+
+
+
+
 }
 
 export default Projects
