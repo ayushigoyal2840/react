@@ -6,9 +6,9 @@ function CourseStructure(props) {
    console.log(props);
   return (
     <div>
-        <h1>Welcome to course</h1>
+        <h1>Welcome to course {props.match.params.coursename}</h1>
     </div>
   );
-}
+} 
 
 export default CourseStructure;
