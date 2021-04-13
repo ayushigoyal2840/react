@@ -5,7 +5,7 @@ import '../App.css';
 function Home() {
   return (
     <div>
-        <h1>hii</h1>
+        {/* <h1>hii</h1> */}
     
       
     </div>

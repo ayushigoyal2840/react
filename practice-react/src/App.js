@@ -11,9 +11,9 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <About />
+      {/* <About /> */}
       <Contact />
-     <h1>hello from react</h1>
+     {/* <h1>hello from react</h1> */}
       
     </div>
   );
